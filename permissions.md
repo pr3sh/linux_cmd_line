@@ -2,10 +2,16 @@
 ## Abstract
 Understanding how Linux permissions work.
 
-Linux file system permissions are quite trivial but can also cause lots of confusion the details are skipped over.
-- In summary the linux file system has three primary accounts which can be assigned three types of permissions
-- **`Users`**, **`Groups`**,and, **`Others`**.
-- Permissions are: **`Read`**, **`Write`**, and, **`Execute`**. 
+
+The **`UNIX`**/**`Linux`** file system permissions are quite trivial but can also cause lots of confusion the details are skipped over.
+- In summary the **`Linux`** file system has *three* sets of permissions that can be assgined to *three* types of owners.
+1. **`Users`** :
+2. **`Groups`** :
+3. **`Others`** :
+- Permissions are:
+1. **`Read`** :
+2. **`Write`** :
+3. **`Execute`** : 
 
 - List files and directories,with their associated permissions:
 ```
