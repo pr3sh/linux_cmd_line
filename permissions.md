@@ -2,16 +2,19 @@
 ## Abstract
 Understanding how Linux permissions work.
 
-
+#### Introduction:
 The **`UNIX`**/**`Linux`** file system permissions are quite trivial but can also cause lots of confusion the details are skipped over.
 - In summary the **`Linux`** file system has *three* sets of permissions that can be assgined to *three* types of owners.
+
+
 1. **`Users`** : 
    Users can be viewed as the owners of a file/directory. The creator of a file by default, is the owner.
 2. **`Groups`** :
    Groups can contain multiple **`members`**. Members within the sameb group are assigned the same **`Linux`** group permissions access to a file/directory.
 3. **`Others`** :
    Any other user outside who may have access to a file.
-1. **`Read`** :
+> *Permission types* :
+1. **`Read`** :Read permission on files allows the opening and reading of its contents, while read permissions on directories allow you to list the contents of it.
 2. **`Write`** :
 3. **`Execute`** : 
 
