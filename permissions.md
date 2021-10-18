@@ -18,10 +18,6 @@ The **`UNIX`**/**`Linux`** file system permissions are quite trivial but can als
 2. **`Write`** :
 3. **`Execute`** : 
 
-
-
-
-
 - List files and directories,with their associated permissions:
 ```
 $ ls -l 
@@ -50,7 +46,6 @@ $ cat /etc/groups
 ### Change Owner
 
 ### Change Modes
-
 
 - **1**: Execute
 - **2**: Write
